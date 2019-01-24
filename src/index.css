@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui.container.main {
+  margin-top: 20px;
+}
+.Billing-section-container {
+  margin-bottom: 40px;
+}
+.Button {
+  border-radius: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  min-width: 150px;
+  padding: 8px 20px;
+}
+
+.Button:hover {
+  color: #fff;
+}
+
+.Billing-section-header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Billing-section-title {
+  color: #47505e;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.Billing-section-description {
+  color: #47505e;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.Billing-section-add-card-button {
+  background: transparent;
+  border: 1px solid #dadada;
+  color: #09a59a;
+}
+
+.Billing-section-add-card-button:hover {
+  background: #f6fffe;
+  border-color: #09a59a;
+  color: #09a59a;
+}
+
+.Billing-credit-cards-container {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Billing-credit-cards-container {
+    margin-bottom: 20px;
+  }
+}
+.CreditCardForm-header,
+.CreditCardForm-actions {
+  text-align: center;
+}
+
+.CreditCardForm-back-btn {
+  background: none;
+  border: 0;
+  color: #8592a6;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.CreditCardForm-back-btn:hover {
+  color: #47505e;
+}
+
+.CreditCardForm-title {
+  color: #47505e;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.CreditCardForm-description {
+  color: #8592a6;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.StripeForm {
+  position: relative;
+}
+
+.StripeForm-loading-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.StripeForm-errors-outer-container {
+  margin-bottom: 30px;
+}
+
+.StripeForm-errors-inner-container {
+  background: #db5694;
+  color: #fdf6f9;
+  padding: 15px 20px;
+}
+
+.StripeForm-input-container {
+  background: #fff;
+  border: 0.75px solid #eee;
+  border-radius: 3px;
+  display: block;
+  height: 40px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.StripeForm-input-container.has-error {
+  background: #fdf6f9;
+  border-color: #db5694;
+}
+
+.StripeForm-input-container:focus {
+  border-color: #555;
+  outline: 0;
+}
+
+.StripeForm-actions {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.StripeForm-actions.hidden {
+  display: none;
+}
+
+.StripeForm-actions button {
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.StripeForm-actions button:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.StripeElement--focus {
+  border-color: #555;
+}
+
+.StripeElement--invalid {
+  background: #fdf6f9;
+  border-color: #db5694;
+}
+.my-teachable-layout .sticky-center-container {
+  width: 550px;
+  -webkit-transform: unset;
+  transform: unset;
+}
+.my-teachable-layout .sticky-center-container {
+  position: relative;
+  top: unset;
+  left: unset;
+  margin-bottom: 23px;
+}
+
+.CreditCardForm-header,
+.CreditCardForm-actions {
+  text-align: center;
+}
+
+.CreditCardForm-back-btn {
+  background: none;
+  border: 0;
+  color: #8592a6;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.CreditCardForm-back-btn:hover {
+  color: #47505e;
+}
+
+.CreditCardForm-title {
+  color: #47505e;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.CreditCardForm-description {
+  color: #8592a6;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.StripeForm {
+  position: relative;
+}
+
+.StripeForm-loading-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.StripeForm-errors-outer-container {
+  margin-bottom: 30px;
+}
+
+.StripeForm-errors-inner-container {
+  background: #db5694;
+  color: #fdf6f9;
+  padding: 15px 20px;
+}
+
+.StripeForm-input-container {
+  background: #fff;
+  border: 0.75px solid #eee;
+  border-radius: 3px;
+  display: block;
+  height: 40px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.StripeForm-input-container.has-error {
+  background: #fdf6f9;
+  border-color: #db5694;
+}
+
+.StripeForm-input-container:focus {
+  border-color: #555;
+  outline: 0;
+}
+
+.StripeForm-actions {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.StripeForm-actions.hidden {
+  display: none;
+}
+
+.StripeForm-actions button {
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.StripeForm-actions button:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.StripeElement--focus {
+  border-color: #555;
+}
+
+.StripeElement--invalid {
+  background: #fdf6f9;
+  border-color: #db5694;
+}
+.full-height {
+  height: 100vh;
+}
+.my-teachable-layout .my-teachable-dashboard {
+  font-family: "TeachableSans", "Helvetica", "Arial";
+  min-width: 330px;
+  background: #f5f6f7;
+}
